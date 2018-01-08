@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         for (Contact cn : contacts) {
             String log = "Id: "+cn.getID()+" ,Name: " + cn.getName() + " ,Phone: " + cn.getPhoneNumber();
             // Writing Contacts to log
-            Log.d("Name: ", log);
+            Log.d("Contact: ", log);
         }
     }
 }
